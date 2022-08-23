@@ -52,8 +52,7 @@ while keep_going == "":
     print("Area: {} square units".format(area))
     print()
 
-    keep_going = print("Press <enter> to keep going or any key to quit.")
-    keep_going = input("Again?")
+    keep_going = input("Press <enter> to keep going or any key to quit.")
 
 print()
 print("Thanks for using my Area / Perimeter Calculator")
